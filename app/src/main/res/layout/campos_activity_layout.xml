@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Campos_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/livros"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="60dp"/>
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <EditText
+           android:layout_width="match_parent"
+           android:id="@+id/txtTitulo"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="70dp"
+           android:hint="Título do livro:"
+           android:layout_marginLeft="55dp"
+           android:layout_marginRight="60dp"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAutor"
+            android:layout_marginTop="15dp"
+            android:hint="Autor do livro:"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="60dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:id="@+id/txtDescricao"
+            android:textSize="17dp"
+            android:text="Descrição do livro:"
+            android:layout_marginLeft="57dp"
+            android:layout_marginRight="60dp"
+            android:inputType="textMultiLine"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="center"
+        android:text="Cadastrar Livro"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_gravity="center"
+        android:text="Consultar Livros"/>
+</LinearLayout>

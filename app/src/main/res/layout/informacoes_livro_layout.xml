@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/lstIMGLivro"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/livros" />
+
+    <TextView
+        android:id="@+id/lstTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lstIMGLivro"
+        android:text="Titulo"
+        android:layout_marginTop="25dp"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lstAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lstTitulo"
+        android:text="Autor"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="23dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lstEditora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lstAutor"
+        android:text="Editora"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/lstDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lstEditora"
+        android:text="Descrição"
+        android:layout_marginTop="50dp"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
